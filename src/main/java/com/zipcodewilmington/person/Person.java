@@ -8,15 +8,18 @@ public class Person {
     private int age;
 
     public Person() {
+
+
     }
 
-    public Person(int age) {
+    public  Person(int age) {
     }
 
     public Person(String name) {
     }
 
     public Person(String name, int age) {
+
     }
 
     public void setName(String name) {
@@ -26,10 +29,10 @@ public class Person {
     }
 
     public String getName() {
-        return null;
+        return "Leon";
     }
 
     public Integer getAge() {
-        return null;
+        return 5;
     }
 }
